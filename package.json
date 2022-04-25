@@ -1,0 +1,25 @@
+{
+  "name": "appmain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TPBots/AppMain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TPBots/AppMain/issues"
+  },
+  "homepage": "https://github.com/TPBots/AppMain#readme",
+  "dependencies": {
+    "TPProtocol": "git+https://github.com/TPBots/TPProtocol.git",
+    "TPRouter": "git+https://github.com/TPBots/TPRouter.git",
+    "TPUI": "git+https://github.com/TPBots/TPUI.git",
+    "TPRobot": "git+https://github.com/TPBots/TPRobot.git"
+  }
+}
