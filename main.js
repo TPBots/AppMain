@@ -19,7 +19,7 @@ module.exports = function AppMain(){
     ////////////////////////////////
     //   Load Modules           ////
     ////////////////////////////////
-    require("./loadmodules.js")(pkgJSON, modules);
+    require("./loadmodules.js")(pkgJSON, _APPMEM_._M_);
 
 
     ////////////////////////////////
@@ -27,6 +27,15 @@ module.exports = function AppMain(){
     ////////////////////////////////
 
 
+    // Environments     // software package
+        // robot            // 
+        // server
+        // browser          //  data:text/html,<script>alert('hi');</script>
+
+
+    // when environment identified
+        // fetch files locally or from github
+        // 
 
     ////////////////////////////////
     //  DB Connections          ////
@@ -39,5 +48,9 @@ module.exports = function AppMain(){
     _M_["TPRouter"](
         _M_["TPProtocol"]
     );
+
+    ////////////////////////////////
+    //   MainPurposeCode        ////
+    ////////////////////////////////
 
 }
